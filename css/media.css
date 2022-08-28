@@ -1,0 +1,81 @@
+@media(max-width: 599px){
+    .sidebar, .my-photo, .main-container{
+        width: 310px;
+    }
+
+    .my-photo{
+        height: 310px;
+    }
+    .main-content-section{
+        padding: 60px 20px;
+    }
+
+    .name{
+        font-size: 25px;
+    }
+
+    .description{
+        font-size: 12px;
+    }
+
+    .main-content-title{
+        font-size: 20px;
+    }
+
+    .my-projects-container, .description, .my-projects-list{
+        width: 270px;
+    }
+    
+    .projects-link1{
+        display: none;
+    }
+    .projects-link2{
+        display: inline-block;
+    }
+}
+
+@media(max-width: 999px){
+    .main-container{
+        flex-direction: column-reverse;
+    }
+}
+@media (min-width: 600px) and (max-width: 999px){
+    .main-container{
+        width: 590px;
+    }
+    .my-photo{
+        margin: 0 auto;
+    }
+    .main-content-section{
+        padding: 60px 40px;
+    }
+
+    .sidebar, .main-container{
+        width: 590px;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-projects-container, .description, .my-projects-list{
+        width: 520px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media (min-width: 1000px) and (max-width: 1199px){
+    .main-container{
+        width: 990px;
+    }
+
+    .main-content-section{
+        width: 620px;
+        box-sizing: border-box;
+        padding: 85px 60px;
+    }
+    .description{
+        width: 500px;
+    }
+}
